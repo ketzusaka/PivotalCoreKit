@@ -32,7 +32,16 @@ this header includes the following UI extensions
 	- (void)tapTabAtIndex:(NSUInteger)position;
 
 Simulates tapping a tab bar at index.  This will raise an assertion error if the index it out of bounds of the tabs. If the UITabBarController instance has a delegate it will test the -tabBarController:shouldSelectViewController: method and only select the tab based on the results.
-			
+
+#### UISlider+Spec.h
+	- (void)slidTo:(float)value;
+
+Simulates sliding a UISlider to a value
+
+	- (void)slidToAndRelease:(float)value;
+
+Simulates sliding a UISlider to a value and releasing the slider knob
+
 ## MIT License
 
 Copyright (c) 2012 Pivotal Labs (www.pivotallabs.com)

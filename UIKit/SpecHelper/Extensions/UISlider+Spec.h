@@ -3,5 +3,6 @@
 @interface UISlider (Spec)
 
 - (void)slideTo:(float)value;
+- (void)slideToAndRelease:(float)value;
 
 @end

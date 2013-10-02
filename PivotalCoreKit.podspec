@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'PivotalCoreKit'
-  s.version  = '0.1'
+  s.version  = '0.2'
   s.license  = 'MIT'
   s.summary  = 'Common library code for iOS projects'
   s.homepage = 'https://github.com/pivotal/PivotalCoreKit'

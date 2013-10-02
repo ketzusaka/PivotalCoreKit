@@ -13,4 +13,9 @@
     [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 
+- (void)slideToAndRelease:(float)value {
+  [self slideTo:value];
+  [self sendActionsForControlEvents:UIControlEventTouchUpInside];
+}
+
 @end
